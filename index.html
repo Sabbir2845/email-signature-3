@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3616af1012.js" crossorigin="anonymous"></script>
+    <title>Signature 3</title>
+    <style>
+        *{
+    margin: 0; padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #333;
+}
+.container .box{
+    width: 600px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+.container .box .image{
+    margin: 10px 10px;
+    border-right: 3px solid;
+    padding: 10px 10px;
+}
+.container .box .image img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+.container .box .image .icons ul li{
+    display: inline;
+    font-size: 20px;
+    padding-left: 8px;
+}
+.container .box .image .icons{
+    margin-left: 8px;
+    margin-top: 8px;
+}
+.container .box .image .icons ul li a{
+    color: black;
+}
+.container .box .image .icons ul li a:hover{
+    color: aquamarine;
+}
+.container .box .content{
+    margin-left: 20px;
+}
+.container .box .content .name{
+    margin-top: -20px;
+    padding: 5px;
+    padding-left: 40px;
+}
+.container .box .content .post{
+    padding-bottom: 5px;
+    padding-left: 40px;
+    font-size: 18px;
+}
+.container .box .content .contact{
+    padding-left: 30px;
+    font-size: 15px;
+    padding-top: 5px;
+}
+.container .box .content .contact ul li{
+    list-style-type: none;
+    padding: 5px;
+}
+.container .box .content .contact ul li a{
+    color: black;
+}
+.container .box .content .contact ul li i:hover{
+    color: aquamarine;
+}
+@media(max-width:768px){
+    .container .box{
+        width: 350px;
+        flex-flow: column;
+        display: flex;
+    }
+    .container .box .image{
+        border: none;
+    }
+    .container .box .content{
+        padding-right: 23px;
+        margin-bottom: 10px;
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="image">
+                <img src="maisa.jpg" alt="#" height="150px">
+                <div class="icons">
+                    <ul>
+                        <li><a href="https://www.facebook.com/sabbir.hossain2626"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="https://www.facebook.com/sabbir.hossain2626"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="https://www.facebook.com/sabbir.hossain2626"><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href="https://www.facebook.com/sabbir.hossain2626"><i class="fa-brands fa-github"></i></a></li>
+                    </ul>
+
+                </div>
+             </div>
+             <div class="content">
+                <h1 class="name">Sabbir Hossain</h1>
+                <h4 class="post">Web Designer</h4>
+                <div class="contact">
+                    <ul>
+                        <li><a href="#"><i class="fa-solid fa-phone"></i> 01632732220</a></li>
+                        <li><a href="#"><i class="fa-solid fa-globe"></i> www.sabbir.com </a></li>
+                        <li><a href="#"><i class="fa-solid fa-envelope"></i> sabbir92828@gmail.com</a></li>
+                        <li><a href="#"><i class="fa-solid fa-location-dot"></i> Pancharri , 
+                            khagracharri , Chattogram</a></li>
+                    </ul>
+                </div>
+             </div>
+        </div>
+    </div>
+ 
+
+    
+</body>
+</html>
